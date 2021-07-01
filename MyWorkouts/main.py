@@ -7,8 +7,8 @@ HEIGHT_CM = 6
 AGE = 19
 
 # API Keys
-APP_ID = "5dbec442"
-API_KEY = "fb466e42f5fcb44a6f907ac123867dd3"
+APP_ID = ""
+API_KEY = ""
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint = "https://api.sheety.co/85068cda4bc7787a3f2639561cb98502/myWorkouts/workouts"
