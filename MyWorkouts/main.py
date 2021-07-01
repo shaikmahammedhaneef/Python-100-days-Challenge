@@ -11,7 +11,7 @@ APP_ID = ""
 API_KEY = ""
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
-sheet_endpoint = "https://api.sheety.co/85068cda4bc7787a3f2639561cb98502/myWorkouts/workouts"
+sheet_endpoint = "https://api.sheety.co/YOURKEY/myWorkouts/workouts"
 
 exercise_text = input("Tell me which exercises you did: ")
 
@@ -49,8 +49,8 @@ for exercise in result["exercises"]:
         sheet_endpoint,
         json=sheet_inputs,
         auth=(
-            "haneef",
-            "haneef"
+            "un",
+            "pass"
         )
     )
 
